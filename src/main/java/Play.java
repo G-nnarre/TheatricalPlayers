@@ -1,10 +1,18 @@
-public class Play {
+abstract class Play {
 
-  public String name;
-  public String type;
+    public String name;
 
-  public Play(String name, String type) {
-    this.name = name;
-    this.type = type;
-  }
+    private final int price = 0;
+
+    Play(String name) {
+        this.name = name;
+    }
+
+    public abstract int price(int audience);
+
+    public int bonus(int audience) {
+        return Math.max(audience - 30, 0);
+    }
+
+
 }

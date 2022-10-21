@@ -193,7 +193,7 @@
 
         <!-- Checks for class design                         -->
         <!-- See http://checkstyle.sf.net/config_design.html -->
-        <module name="DesignForExtension"/>
+        <!--<module name="DesignForExtension"/>-->
         <module name="FinalClass"/>
         <module name="HideUtilityClassConstructor"/>
         <!-- <module name="InnerTypeLast"/> -->
@@ -229,11 +229,11 @@
         <module name="UpperEll"/>
         <module name="ArrayTypeStyle"/>
         <module name="Indentation">
-            <property name="basicOffset" value="2"/>
-            <property name="caseIndent" value="2"/>
-            <property name="throwsIndent" value="2"/>
-            <property name="arrayInitIndent" value="2"/>
-            <property name="lineWrappingIndentation" value="2"/>
+            <property name="basicOffset" value="4"/>
+            <property name="caseIndent" value="4"/>
+            <property name="throwsIndent" value="4"/>
+            <property name="arrayInitIndent" value="4"/>
+            <property name="lineWrappingIndentation" value="4"/>
         </module>
         <module name="TrailingComment"/>
         <module name="OuterTypeFilename"/>
