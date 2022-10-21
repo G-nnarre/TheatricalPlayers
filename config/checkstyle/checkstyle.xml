@@ -59,19 +59,20 @@
 
         <!-- Checks for Javadoc comments.                     -->
         <!-- See http://checkstyle.sf.net/config_javadoc.html -->
-        <module name="JavadocMethod">
-            <property name="scope" value="public"/>
-        </module>
-        <module name="JavadocType">
-            <property name="scope" value="public"/>
-        </module>
-        <module name="JavadocVariable">
-            <property name="scope" value="public"/>
-        </module>
-        <module name="JavadocStyle">
-            <property name="scope" value="public"/>
-        </module>
-
+        <!--
+      <module name="JavadocMethod">
+          <property name="scope" value="public"/>
+      </module>
+      <module name="JavadocType">
+          <property name="scope" value="public"/>
+      </module>
+      <module name="JavadocVariable">
+          <property name="scope" value="public"/>
+      </module>
+      <module name="JavadocStyle">
+          <property name="scope" value="public"/>
+      </module>
+      -->
 
         <!-- Checks for Naming Conventions.                  -->
         <!-- See http://checkstyle.sf.net/config_naming.html -->
@@ -175,7 +176,7 @@
         <module name="NoFinalizer"/>
         <module name="OneStatementPerLine"/>
         <module name="OverloadMethodsDeclarationOrder"/>
-        <module name="PackageDeclaration"/>
+        <!--<module name="PackageDeclaration"/>-->
         <module name="ParameterAssignment"/>
         <module name="RequireThis"/>
         <module name="ReturnCount">
